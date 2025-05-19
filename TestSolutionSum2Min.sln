@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSolutionSum2Min", "TestSolutionSum2Min\TestSolutionSum2Min.csproj", "{5D2C0A8A-1C1F-4516-8688-5D70A1724341}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionSumOf2MinInCollection", "TestSolutionSum2Min\SolutionSumOf2MinInCollection.csproj", "{5D2C0A8A-1C1F-4516-8688-5D70A1724341}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSolution", "TestSolution\TestSolution.csproj", "{94E15A02-4B5C-446B-8516-F2303FF1C241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestsIsSolutionShould", "TestSolution\UnitTestsIsSolutionShould.csproj", "{94E15A02-4B5C-446B-8516-F2303FF1C241}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

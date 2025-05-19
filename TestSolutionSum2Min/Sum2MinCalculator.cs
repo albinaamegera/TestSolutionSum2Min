@@ -1,12 +1,13 @@
-﻿public class Solution()
+﻿public class Sum2MinCalculator()
 {
-    public int SumOfTwoMinNumbers(int[] values)
+    public int SumOfTwoMinNumbers(IEnumerable<int>? values)
     {
         if (values == null)
             throw new NullReferenceException("коллекция равна null");
-        if (values.Length < 2)
-            throw new ArgumentOutOfRangeException("values", "меньше двух элементов в коллекции");
+        if (values.Count() < 2)
+            throw new ArgumentOutOfRangeException(nameof(values), "меньше двух элементов в коллекции");
 
+        int result;
         int min1 = int.MaxValue;
         int min2 = int.MaxValue;
 
@@ -23,6 +24,12 @@
                 min2 = num;
             }
         }
-        return min1 + min2;
+        
+        checked
+        {
+            result = min1 + min2;
+        }
+
+        return result;
     }
 }
